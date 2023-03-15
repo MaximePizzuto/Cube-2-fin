@@ -1,0 +1,43 @@
+body {
+    background-image: url("/image/meteo.png");
+}
+
+.placementtitre {
+    display: flex;
+    justify-content: center;
+}
+
+.titre {
+    text-align: center;
+    background-color: #abc1d3;
+    margin-right: 10px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px;
+}
+
+.données {
+    display: flex;
+    justify-content: center;
+    margin-left: -40px; 
+}
+
+.données nav a {
+    background-color: rgb(38, 79, 121);
+    color: #abc1d3;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+
+nav a:hover {
+    color: white;
+    background-color: #abc1d3;
+}
+
+nav a:active {
+    background-color: black;
+}
+
