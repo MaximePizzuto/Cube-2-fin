@@ -1,0 +1,26 @@
+footer{
+
+position: fixed;
+bottom: 0%;
+width: 100%;
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+#chart {
+  max-width: 650px;
+  margin: 35px auto;
+}
+
+.para{
+
+text-align: center;
+margin-top: 200px;
+
+
+}

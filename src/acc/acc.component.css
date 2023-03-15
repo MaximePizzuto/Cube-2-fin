@@ -1,0 +1,24 @@
+.bdy{
+
+
+text-align: center;
+
+
+}
+
+*,
+::after,
+::before{
+
+margin: 0px;
+padding: 0px;
+
+}
+
+footer{
+
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    
+    }

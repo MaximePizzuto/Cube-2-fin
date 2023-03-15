@@ -1,0 +1,86 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+footer{
+
+position: fixed;
+width: 100%;
+bottom: 0px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 280px;
+  background: linear-gradient(#F9BC61, #FDE8C9);
+  box-shadow: 0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12);
+  border-radius: 8px;
+}
+
+/* DIMENSION CARTE */
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 88%;
+  width: 88%;
+  background-color: white;
+  border-radius: 8px;
+}
+
+/* MISE EN PAGE DANS CARTE*/
+.content > .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  background-color: white;
+  
+
+}
+
+.content > .middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35%;
+  background: linear-gradient(#F9BC61, #FDE8C9 75%);
+  padding-left: 15px;
+  padding-right: 15px;
+  
+
+}
+
+/*DONNEES*/
+.content > .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.don{
+
+
+display: flex;
+justify-content: center;
+
+}
+
+.cent{
+
+display: flex;
+justify-content: center;
+margin-top: 80px;
+
+}
